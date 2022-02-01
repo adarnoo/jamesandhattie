@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: helvetica;
+  font-size: 2.5vw;
+}
+
+.jh-page {
+  position: relative;
+  width: 100%;
+}
+
+.jh-content {
+  position: absolute;
+  width: 80%;
+  margin: 0 10%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.jh-married {
+  width: 100%;
+}
+
+.jh-image {
+  width: 100%;
+}
+
+@keyframes blink {
+  0% {
+    color: blue;
+  }
+  49% {
+    color: blue;
+  }
+  50% {
+    color: lightblue;
+  }
+  99% {
+    color: lightblue;
+  }
+  100% {
+    color: blue;
+  }
+}
+
+
+
+/* Mobile View */
+
+@media only screen and (min-device-width: 320px) and
+(max-device-width: 480px) and
+(-webkit-min-device-pixel-ratio: 2) {
+
+body {
+  font-size: 4vw;
+}
+
+.jh-content {
+  position: absolute;
+  width: 90%;
+  margin: 0 5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+}
