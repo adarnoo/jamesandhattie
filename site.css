@@ -28,24 +28,26 @@ body {
   width: 100%;
 }
 
-@keyframes blink {
-  0% {
-    color: blue;
-  }
-  49% {
-    color: blue;
-  }
-  50% {
-    color: lightblue;
-  }
-  99% {
-    color: lightblue;
-  }
-  100% {
-    color: blue;
-  }
+.jh-statue--one {
+  position: fixed;
+  bottom: 35%;
+  right: -7%;
+  width: 30%;
 }
 
+.jh-statue--two {
+  position: fixed;
+  bottom: 5%;
+  left: -7%;
+  width: 30%;
+}
+
+.jh-statue--three {
+  position: fixed;
+  top: 5%;
+  right: 10%;
+  width: 30%;
+}
 
 
 /* Mobile View */
@@ -64,6 +66,25 @@ body {
   margin: 0 5%;
   text-align: center;
   text-transform: uppercase;
+}
+
+.jh-statue {
+  position: fixed;
+  bottom: 40%;
+  right: -7%;
+  width: 50%;
+}
+
+.jh-statue--one {
+  display: none;
+}
+
+.jh-statue--two {
+  display: none;
+}
+
+.jh-statue--three {
+  display: none;
 }
 
 }
