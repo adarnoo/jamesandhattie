@@ -76,15 +76,21 @@ body {
 }
 
 .jh-statue--one {
-  display: none;
+  top: 5%;
+  width: 50%;
+  right: -10%;
 }
 
 .jh-statue--two {
-  display: none;
+  top: 15%;
+  width: 50%;
+  left: -10%;
 }
 
 .jh-statue--three {
-  display: none;
+  top: 60%;
+  width: 50%;
+  right: 0%;
 }
 
 }
