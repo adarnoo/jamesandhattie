@@ -7,6 +7,10 @@ body {
   font-size: 2.5vw;
 }
 
+a:visited {
+  color: blue;
+}
+
 .jh-page {
   position: relative;
   width: 100%;
